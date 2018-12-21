@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="54205" started-at="2018-12-21T17:41:16Z" finished-at="2018-12-21T17:42:11Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:CucumberDemo.CucumberDemo.TestRunner@464bee09]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="54205" started-at="2018-12-21T17:41:16Z" finished-at="2018-12-21T17:42:11Z">
+      <class name="CucumberDemo.CucumberDemo.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:CucumberDemo.CucumberDemo.TestRunner@464bee09]" name="setUpClass" is-config="true" duration-ms="318" started-at="2018-12-21T17:41:16Z" finished-at="2018-12-21T17:41:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:CucumberDemo.CucumberDemo.TestRunner@464bee09]" name="feature" duration-ms="32977" started-at="2018-12-21T17:41:17Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-12-21T17:41:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DDT Testing of the Login Functionality of the application with Invalid credentials]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:CucumberDemo.CucumberDemo.TestRunner@464bee09]" name="feature" duration-ms="9962" started-at="2018-12-21T17:41:50Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-12-21T17:42:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Verify the Title of our web application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:CucumberDemo.CucumberDemo.TestRunner@464bee09]" name="feature" duration-ms="10787" started-at="2018-12-21T17:42:00Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-12-21T17:42:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[To Test the Login Functionality]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:CucumberDemo.CucumberDemo.TestRunner@464bee09]" name="tearDownClass" is-config="true" duration-ms="8" started-at="2018-12-21T17:42:11Z" finished-at="2018-12-21T17:42:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- CucumberDemo.CucumberDemo.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
